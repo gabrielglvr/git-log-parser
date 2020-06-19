@@ -21,7 +21,7 @@ end_date = 'JUN 30 2020'
 git_author = 'C1299745 Gabriel Gomes Oliveira'
 
 # url do projeto SEM O / NO FINAL
-project_path = 'https://fontes.intranet.bb.com.br/big/big-plataforma-analitica-gestao-arquivos/big-plataforma-analitica-gestao-arquivos'
+project_path = ''
 
 
 ##################################################
@@ -29,6 +29,7 @@ project_path = 'https://fontes.intranet.bb.com.br/big/big-plataforma-analitica-g
 #                                                #
 #                                                #
 ##################################################
+
 commits_filename = f'{git_author}_{initial_date}_{end_date}_commits.txt'
 file_name = 'tmp.git.log'
 blob_path = '/-/blob/'
