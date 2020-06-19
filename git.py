@@ -58,7 +58,6 @@ with open(file_name, 'rt') as file:
 
 files.sort(key=lambda x: x.filename, reverse=True)
 
-
 with open(commits_filename, "a") as cf:
     for f in files:
         cf.write(f'{project_path}{blob_path}{f.hashcode}/{f.filename}\n')
