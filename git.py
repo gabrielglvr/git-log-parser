@@ -29,9 +29,10 @@ project_path = 'https://fontes.intranet.bb.com.br/big/big-plataforma-analitica-g
 #                                                #
 #                                                #
 ##################################################
-
+commits_filename = f'{git_author}_{initial_date}_{end_date}_commits.txt'
 file_name = 'tmp.git.log'
 blob_path = '/-/blob/'
+
 command = f'git --no-pager log --since "{initial_date}" --until "{end_date}" --name-status --author="{git_author}" > {file_name}'
 
 os.system(command)
@@ -55,7 +56,8 @@ with open(file_name, 'rt') as file:
             filename = line[2:].strip()
             files.append(GitFile(hashes[index], filename))
 
-commits_filename = f'{git_author}_{initial_date}_{end_date}_commits.txt'
+
+
 
 with open(commits_filename, "a") as cf:
     for f in files:
