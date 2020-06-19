@@ -18,10 +18,10 @@ initial_date = 'MAY 1 2020'
 end_date = 'JUN 30 2020'
 
 # Autor do commit
-git_author = ''
+git_author = 'C1299745 Gabriel Gomes Oliveira'
 
 # url do projeto SEM O / NO FINAL
-project_path = ''
+project_path = 'https://fontes.intranet.bb.com.br/big/big-plataforma-analitica-gestao-arquivos/big-plataforma-analitica-gestao-arquivos'
 
 
 ##################################################
