@@ -21,7 +21,7 @@ end_date = 'JUN 30 2020'
 git_author = 'C1299745 Gabriel Gomes Oliveira'
 
 # url do projeto SEM O / NO FINAL
-project_path = 'https://fontes.intranet.bb.com.br/big/big-plataforma-analitica-gestao-arquivos/big-plataforma-analitica-gestao-arquivos'
+project_path = ''
 
 
 ##################################################
