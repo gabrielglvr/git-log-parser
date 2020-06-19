@@ -56,7 +56,7 @@ with open(file_name, 'rt') as file:
             filename = line[2:].strip()
             files.append(GitFile(hashes[index], filename))
 
-
+files.sort(key=lambda x: x.filename, reverse=True)
 
 
 with open(commits_filename, "a") as cf:
