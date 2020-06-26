@@ -64,7 +64,9 @@ for gitdir in folder_list:
     project_path = get_url(gitdir) 
     if len( project_path ) == 0 :
         continue
-
+    
+    project_path = project_path.replace(".git", "")
+    
     command = f'git -C "{gitdir}" --no-pager log --since "{initial_date}" --until "{end_date}" --name-status --author="{git_author}" > {gitdir}.txt'
 
     os.system(command)
